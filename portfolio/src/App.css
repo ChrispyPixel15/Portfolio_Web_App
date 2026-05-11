@@ -1,0 +1,366 @@
+
+
+.navigation {
+  width: fit-content;
+  background-color: #50586ca9;
+  border-radius: 10rem;
+  margin-left: auto;
+  margin-top: 1rem;
+  margin-right: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: sticky;
+}
+
+.button {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color: transparent;
+  border: none;
+  font-family: 'Sentient';
+  font-size: 18px;
+  color: var(--light);
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.button:hover {
+  background-color: var(--dark);
+}
+
+.start {
+  border-top-left-radius: 10rem;
+  border-bottom-left-radius: 10rem;
+}
+
+.end {
+  border-top-right-radius: 10rem;
+  border-bottom-right-radius: 10rem;
+}
+
+.home-content {
+  width: fit-content;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 30vh;
+  margin-bottom: auto;
+}
+
+.icons-holder {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10vh;
+}
+
+.icon {
+  transform: scale(1);
+  transition: transform 0.2s ease-in-out;
+}
+
+.icon:hover {
+  transform: scale(1.2);
+}
+
+.project-content {
+  
+  h1 {
+    font-family: 'Sentient';
+    font-size: 60px;
+    color: var(--dark);
+    margin: 0;
+    text-align: center;
+    margin-top: 2rem;
+  }
+
+  h2 {
+    font-family: 'Sentient';
+    font-size: 40px;
+    color: var(--dark);
+    margin: 0;
+    text-align: center;
+    margin-top: 1rem;
+  }
+
+  h3 {
+    font-family: 'Sentient';
+    font-size: 30px;
+    color: var(--dark);
+    margin: 0;
+  }
+}
+
+.project-stuff {
+  border: var(--dark) solid 2px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 20px;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0.8rem;
+  cursor: pointer;
+  max-height: 80px;
+  overflow: hidden;
+  transition: all 0.3s ease-in-out;
+}
+
+.project-stuff.open {
+  max-height: 250px;
+  overflow: hidden;
+}
+
+.project-stuff:hover {
+  border-style: dashed;
+}
+
+.project-min {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.title-type p {
+  border: var(--dark) dashed 1px;
+  width: fit-content;
+  padding: 2px 4px;
+}
+
+.arrow {
+  margin-top: 50%;
+  color: var(--dark);
+}
+
+.desc {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.links {
+  display: flex;
+  flex-direction: row;
+  width: 35%;
+  justify-content: space-between;
+}
+
+.link {
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+  border: var(--dark) solid 2px;
+  border-radius: 10px;
+  padding: 3px 6px;
+  transition: all 0.3s ease-in-out;
+  
+  p {
+    font-size: 17px;
+    align-self: center;
+    color: var(--dark);
+    margin-left: 5px;
+  }
+
+  .icon-link {
+    size: 26px;
+    color: var(--dark);
+  }
+}
+
+.link:hover {
+  background-color: var(--dark);
+
+  p {
+    color: var(--light);
+  }
+
+  .icon-link {
+    color: var(--light);
+  }
+}
+
+.stack-container {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 1rem;
+
+  p {
+    margin-right: 10px;
+    font-size: 16px;
+    background-color: #ecf0f8ce;
+    padding: 2px 4px;
+    border-radius: 5px;
+    border: var(--dark) solid 1px;
+  }
+}
+
+.skills-content {
+  h1 {
+    font-family: 'Sentient';
+    font-size: 60px;
+    color: var(--dark);
+    margin: 0;
+    text-align: center;
+    margin-top: 2rem;
+  }
+
+  h2 {
+    font-family: 'Sentient';
+    font-size: 40px;
+    color: var(--dark);
+    margin: 0;
+    text-align: center;
+    margin-top: 1rem;
+  }
+}
+
+.contact-content {
+  h1 {
+    font-family: 'Sentient';
+    font-size: 60px;
+    color: var(--dark);
+    margin: 0;
+    text-align: center;
+    margin-top: 2rem;
+  }
+
+  h2 {
+    font-family: 'Sentient';
+    font-size: 40px;
+    color: var(--dark);
+    margin: 0;
+    text-align: center;
+    margin-top: 1rem;
+  }
+}
+
+.experience-content {
+  h1 {
+    font-family: 'Sentient';
+    font-size: 60px;
+    color: var(--dark);
+    margin: 0;
+    text-align: center;
+    margin-top: 2rem;
+  }
+
+  h2 {
+    font-family: 'Sentient';
+    font-size: 40px;
+    color: var(--dark);
+    margin: 0;
+    text-align: left;
+    margin-top: 1rem;
+  }
+
+  h3 {
+    font-family: 'Sentient';
+    font-size: 30px;
+    color: var(--dark);
+    margin: 0;
+    text-align: left;
+    margin-top: 1rem;
+  }
+
+  .institution {
+    width: fit-content;
+    font-size: 25px;
+    border: var(--dark) dashed 2px;
+    border-radius: 10px;
+    padding: 3px 6px;
+  }
+
+  .years {
+    font-weight: bold;
+  }
+}
+
+.arrowIcon {
+  color: var(--dark);
+}
+
+.skill-list {
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr; 
+  gap: 10px;
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.skill-item {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  margin-left: 5rem;
+
+  p {
+    font-family: 'Sentient';
+    font-size: 20px;
+    color: var(--dark);
+    margin: 0;
+  }
+}
+
+.education-experience {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 65%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3rem;
+
+  article {
+    width: 48%;
+  }
+}
+
+.icons-contact-holder {
+  display: flex; 
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 5rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.social-icon-contact {
+  margin-bottom: 3rem;
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+  background-color: var(--dark);
+  border-radius: 10rem;
+  padding: 10px;
+  transition: all 0.2s ease-in-out;
+}
+
+.icon-contact {
+  color: var(--light);
+  transition: all 0.2s ease-in-out;
+}
+
+.social-icon-contact p {
+  max-width: 0;
+  overflow: hidden;
+  margin-top: 2px;
+  transition: all 0.2s ease-in-out;
+}
+
+.social-icon-contact:hover {
+  p {
+    max-width: 100px;
+    color: var(--light);
+  }
+}
+
+

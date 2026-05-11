@@ -1,0 +1,58 @@
+:root {
+  --dark: #50586C;
+  --dark-shadow: #3a3f49;
+  --light: #DCE2F0;
+  --light-shadow: #b9bbc2;
+
+  background-color: var(--light);
+}
+
+#root {
+  height: 100%;
+}
+
+html {
+  height: 100%;
+}
+
+@font-face {
+  font-family: 'Zodiak';
+  src: url('../src/static/fonts/Zodiak-Variable.ttf');
+}
+
+@font-face {
+  font-family: 'Sentient';
+  src: url('../src/static/fonts/Sentient-Variable.ttf');
+}
+
+h1 {
+  font-family: 'Sentient';
+  font-size: 100px;
+  color: var(--dark);
+  margin: 0;
+  text-align: center;
+}
+
+p {
+  font-family: 'Sentient';
+  font-size: 20px;
+  color: var(--dark);
+  margin: 0;
+}
+
+body {
+  margin: 0;
+  height: 100%;
+}
+
+footer {
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  position: sticky;
+  top: 100%;
+
+  p {
+    font-size: 14px;
+  }
+}
