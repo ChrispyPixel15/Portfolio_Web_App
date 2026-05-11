@@ -13,30 +13,54 @@ import Contact from './pages/contact'
 
 function App() {
   const [pageNum, setPageNum] = useState(0)
+  const [open, setOpen] = useState(false)
 
   function choosePage(num) {
     setPageNum(num);
     console.log(num);
+    setOpen(false);
   }
 
   return (
     <>
       <section className='main-page'>
-        <nav className='navigation'>
-          {
-            navigationInfo.map((butt) => {
-              if (butt.id === 0) {
-                return <NavigationComponent key={butt.id} name={butt.name} pos={"start"} navFunction={() => choosePage(butt.id)}/>
+        <nav>
+          <div className='navigation'>
+            {
+              navigationInfo.map((butt) => {
+                if (butt.id === 0) {
+                  return <NavigationComponent key={butt.id} name={butt.name} pos={"start"} navFunction={() => choosePage(butt.id)}/>
+                }
+                else if (butt.id === 4) {
+                  return <NavigationComponent key={butt.id} name={butt.name} pos={"end"} navFunction={() => choosePage(butt.id)}/>
+                }
+                else {
+                  return <NavigationComponent key={butt.id} name={butt.name} pos={"mid"} navFunction={() => choosePage(butt.id)}/>
+                }
+              })
+            }
+          </div>
+          <div className={open ? "hamburger-open" : "hamburger-closed"} onClick={() => setOpen(!open)}>
+            <div className='line-one'></div>
+            <div className='line-two'></div>
+            <div className='line-three'></div>
+          </div>
+          <div className={open ? "ham-menu-open" : "ham-menu-closed"}>
+              {
+                navigationInfo.map((butt) => {
+                  if (butt.id === 0) {
+                    return <NavigationComponent key={butt.id} name={butt.name} pos={"start"} navFunction={() => choosePage(butt.id)}/>
+                  }
+                  else if (butt.id === 4) {
+                    return <NavigationComponent key={butt.id} name={butt.name} pos={"end"} navFunction={() => choosePage(butt.id)}/>
+                  }
+                  else {
+                    return <NavigationComponent key={butt.id} name={butt.name} pos={"mid"} navFunction={() => choosePage(butt.id)}/>
+                  }
+                })
               }
-              else if (butt.id === 4) {
-                return <NavigationComponent key={butt.id} name={butt.name} pos={"end"} navFunction={() => choosePage(butt.id)}/>
-              }
-              else {
-                return <NavigationComponent key={butt.id} name={butt.name} pos={"mid"} navFunction={() => choosePage(butt.id)}/>
-              }
-            })
-          }
-        </nav>
+          </div>
+        </nav>        
         <article className='main-content'>
           {
             pageNum === 0 ? (
