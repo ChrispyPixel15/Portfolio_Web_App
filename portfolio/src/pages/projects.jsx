@@ -7,6 +7,13 @@ function Projects() {
             <h1>Projects</h1>
             <h2>Design & Development</h2>
             <ProjectMinimised 
+            name="Artist Portfolio" 
+            type="Client Project"
+            projectDescription={"A portfolio web app I created for one of my artist friends! Check it out, she's really talented."}
+            githubLink={"https://github.com/ChrispyPixel15/ClientProject_Artist_Portfolio"}
+            projectLink={"https://eversephy.netlify.app/"}
+            stack={["React", "Vite", "JavaScript", "CSS"]} />
+            <ProjectMinimised 
             name="Portfolio" 
             type="Personal Project"
             projectDescription={"This Web App you are currently traversing! It contains my projects, skills and how to contact me."}
