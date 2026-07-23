@@ -9,14 +9,18 @@ export const navigationInfo = [
     },
     {
         id: 2,
-        name: "Skills"
+        name: "Art Things"
     },
     {
         id: 3,
-        name: "Experience"
+        name: "Skills"
     },
     {
         id: 4,
+        name: "Experience"
+    },
+    {
+        id: 5,
         name: "Contact"
     }
 ]

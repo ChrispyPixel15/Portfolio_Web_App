@@ -14,7 +14,7 @@ function Contact() {
                     <InstagramLogoIcon size={32} className="icon-contact" weight="fill" />
                     <p>Instagram</p>
                 </a>
-                <a className="social-icon-contact" href="https://www.youtube.com/@chris.designed" target="_blank">
+                <a className="social-icon-contact" href="https://www.youtube.com/@ChrispyPixel" target="_blank">
                     <YoutubeLogoIcon  size={32} className="icon-contact" weight="fill" />
                     <p>YouTube</p>
                 </a>

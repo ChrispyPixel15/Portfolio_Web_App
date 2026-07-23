@@ -10,6 +10,7 @@ import Home from './pages/home'
 import Skills from './pages/skills'
 import Experience from './pages/experience'
 import Contact from './pages/contact'
+import Art from './pages/pixelart'
 
 function App() {
   const [pageNum, setPageNum] = useState(0)
@@ -31,7 +32,7 @@ function App() {
                 if (butt.id === 0) {
                   return <NavigationComponent key={butt.id} name={butt.name} pos={"start"} navFunction={() => choosePage(butt.id)}/>
                 }
-                else if (butt.id === 4) {
+                else if (butt.id === 5) {
                   return <NavigationComponent key={butt.id} name={butt.name} pos={"end"} navFunction={() => choosePage(butt.id)}/>
                 }
                 else {
@@ -51,7 +52,7 @@ function App() {
                   if (butt.id === 0) {
                     return <NavigationComponent key={butt.id} name={butt.name} pos={"start"} navFunction={() => choosePage(butt.id)}/>
                   }
-                  else if (butt.id === 4) {
+                  else if (butt.id === 5) {
                     return <NavigationComponent key={butt.id} name={butt.name} pos={"end"} navFunction={() => choosePage(butt.id)}/>
                   }
                   else {
@@ -70,12 +71,15 @@ function App() {
               <Projects />
             ) : 
             pageNum === 2 ? (
-              <Skills />
+              <Art />
             ) :
             pageNum === 3 ? (
+              <Skills />
+            ) :
+            pageNum === 4 ? (
               <Experience />
             ) : 
-            pageNum === 4 ? (
+            pageNum === 5 ? (
               <Contact />
             ) : (<Home />)
           }

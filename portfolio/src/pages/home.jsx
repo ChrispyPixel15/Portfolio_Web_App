@@ -13,7 +13,7 @@ function Home() {
                 <a className="social-icon" href="https://www.instagram.com/chris.designed/" target="_blank">
                     <InstagramLogoIcon size={32} className="icon" weight="fill" color="#50586C" />
                 </a>
-                <a className="social-icon" href="https://www.youtube.com/@chris.designed" target="_blank">
+                <a className="social-icon" href="https://www.youtube.com/@ChrispyPixel" target="_blank">
                     <YoutubeLogoIcon  size={32} className="icon" weight="fill" color="#50586C" />
                 </a>
                 <a className="social-icon" href="https://www.linkedin.com/in/christine-holt-8821252b6" target="_blank">
