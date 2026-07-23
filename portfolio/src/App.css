@@ -285,6 +285,7 @@
     padding: 2px 4px;
     border-radius: 5px;
     border: var(--dark) solid 1px;
+    text-align: left;
   }
 }
 
