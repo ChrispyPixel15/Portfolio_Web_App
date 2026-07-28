@@ -7,6 +7,12 @@ function Projects() {
             <h1>Projects</h1>
             <h2>Design & Development</h2>
             <ProjectMinimised 
+            name="Estate Facility Booking Application" 
+            type="Client Project"
+            projectDescription={"A mobile application (for Android and iOS) I was commisioned to make for a specific estate. It enables the admin to create facilities, and other users to book slots to use throughout the day."}
+            githubLink={"https://github.com/ChrispyPixel15/ClientProject_BookingApp_Frontend"}
+            stack={["React Native", "JavaScript", "CSS", "Typescript", "Node.js"]} />
+            <ProjectMinimised 
             name="Artist Portfolio" 
             type="Client Project"
             projectDescription={"A portfolio web app I created for one of my artist friends! Check it out, she's really talented."}
