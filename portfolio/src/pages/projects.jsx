@@ -7,6 +7,12 @@ function Projects() {
             <h1>Projects</h1>
             <h2>Design & Development</h2>
             <ProjectMinimised 
+            name="Client Invoicing and Timesheeting Application" 
+            type="Client Project"
+            projectDescription={"A Windows Desktop Application that allows a sole proprietor to keep track of their hours worked, clients, and invoices sent all in one place. This project is still somewhat in progress."}
+            githubLink={"https://github.com/ChrispyPixel15/ClientProject_ClientInvoicingSystem"}
+            stack={["Dart", "Flutter", "SQLite"]} />
+            <ProjectMinimised 
             name="Estate Facility Booking Application" 
             type="Client Project"
             projectDescription={"A mobile application (for Android and iOS) I was commisioned to make for a specific estate. It enables the admin to create facilities, and other users to book slots to use throughout the day."}
