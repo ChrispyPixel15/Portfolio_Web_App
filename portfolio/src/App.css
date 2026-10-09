@@ -154,7 +154,6 @@
     color: var(--dark);
     text-align: center;
     margin: 0;
-    margin-top: 1rem;
   }
 }
 
@@ -203,13 +202,43 @@
   transition: all 0.3s ease-in-out;
 }
 
+.artproject-stuff {
+  border: var(--dark) solid 2px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 20px;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0.8rem;
+  cursor: pointer;
+  max-height: 80px;
+  overflow: hidden;
+  transition: all 0.3s ease-in-out;
+}
+
 .project-stuff.open {
-  max-height: 250px;
+  max-height: 300px;
   overflow: hidden;
 }
 
 .project-stuff:hover {
   border-style: dashed;
+}
+
+.artproject-stuff.open {
+  max-height: 600px;
+  overflow: hidden;
+}
+
+.artproject-stuff:hover {
+  border-style: dashed;
+}
+
+.art-content {
+  align-content: center;
 }
 
 .project-min {
