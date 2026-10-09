@@ -57,7 +57,7 @@ function Art() {
             projectDescription={"Poster I made for our halloween party poster competition."}
             link={""}
             itchLink={""}
-            image={"../images/halloweenposter.webp"}
+            image={"../images/halloweenPoster.webp"}
             video={""}
             />
             <ArtMinimised
