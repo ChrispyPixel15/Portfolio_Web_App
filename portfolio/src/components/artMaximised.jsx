@@ -20,7 +20,7 @@ function ArtMaximised({smallDescription, link, itchLink, image, video}) {
             }
             <div className="links">
                 {
-                    link != "" ?? (
+                    link != "" && (
                         <a className="link" href={link}>
                             <YoutubeLogoIcon size={32} className="icon-link" weight="fill" />
                             <p>YouTube Link</p>

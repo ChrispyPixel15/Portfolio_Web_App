@@ -91,28 +91,28 @@ function Art() {
             name={"Being Brutally Humbled by Skyrim"}
             type={"YouTube Video"}
             projectDescription={""}
-            link={""}
+            link={"https://www.youtube.com/watch?v=aQ5Ym1cOpQw&t=2s"}
             itchLink={""}
             image={""}
-            video={"https://youtu.be/aQ5Ym1cOpQw?si=K-1CQ5vxoxGO4xDA"}
+            video={"https://www.youtube.com/embed/aQ5Ym1cOpQw&t=2s"}
             />
             <ArtMinimised
             name={"I played through Spring in Fields of Mistria"}
             type={"YouTube Video"}
             projectDescription={""}
-            link={""}
+            link={"https://www.youtube.com/watch?v=vTWZqz32oyU"}
             itchLink={""}
             image={""}
-            video={"https://youtu.be/vTWZqz32oyU?si=_x-2WwwuiRlRUGyV"}
+            video={"https://www.youtube.com/embed/vTWZqz32oyU"}
             />
             <ArtMinimised
             name={"I played a 100% of Strange Horticulture"}
             type={"YouTube Video"}
             projectDescription={""}
-            link={""}
+            link={"https://www.youtube.com/watch?v=dnQFz01IRIQ&t"}
             itchLink={""}
             image={""}
-            video={"https://youtu.be/dnQFz01IRIQ?si=tgG8I8VfXDGj4WXo"}
+            video={"https://www.youtube.com/embed/dnQFz01IRIQ&t"}
             />
         </div>
     )
